@@ -19,4 +19,4 @@ require('./controllers/editController')(app);
 require('./controllers/searchController')(app);
 require('./controllers/projectController')(app);
 
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
